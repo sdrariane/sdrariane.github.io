@@ -1,3 +1,5 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+
 *{
  margin: 0;
  padding: 0;
@@ -13,7 +15,7 @@
  justify-content: center;
 
  position: relative;
- z-index: 3;
+ z-index: 2;
 }
 
 .profile-box{
@@ -74,6 +76,14 @@
  width: 15px;
  margin-top: 15px;
  cursor: pointer;
+}
+
+.profile-bottom img:hover{
+ height: 25px;
+ width: 25px;
+ padding: 5px;
+ border-radius:50%;
+ box-shadow: 0 5px 10px rgba(0, 255, 13, 0.7);
 }
 
 .profile-box button{
